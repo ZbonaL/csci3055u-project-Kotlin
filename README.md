@@ -7,8 +7,10 @@
 
 > _Describe the language_
 >
-> - History
-> - Some interesting features
+> - Kotlin was released on Febuary 15 2016, it was designed by a team at Jetbrains to be used as an alternative to programming Adroid apps in java, just like how switf is used in programming apps on IOS
+> - Some interesting features:
+> - Its an easy language to learn
+> - 
 
 ## About the syntax
 
