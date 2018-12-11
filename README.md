@@ -74,8 +74,23 @@ fun main(args: Array<String>) {
 # Analysis of the language
 
 > 1. The style of programming supported by Kotlin: 
-> Kotlin uses both procedural and functional programming constructs\
+> Kotlin uses both procedural and functional programming constructs, allowing for code to be a mix of functional and object-oriented code to be developed
 
 > 2. Meta-Programming in Kotlin:
+> Kotlin doesn't support Meta Programming
+
+> 3.Kotlin's support for closure
+> 
+```kotlin
+fun addTwoNumbers(a: Int, b: Int, action: (Int, Int) -> Unit) {  // High Level Function with Lambda as Parameter
+
+    action(a, b)
+}
+fun main(args: Array<String>) {
+    var result = 0
+    addTwoNumbers(2, 7) {x, y -> result = x + y}
+    println(result)
+}
+```
 
 
