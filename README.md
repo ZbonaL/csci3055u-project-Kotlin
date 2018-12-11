@@ -7,9 +7,10 @@
 
 > _Describe the language_
 >
+> ### _History_
 > - Kotlin was released on Febuary 15 2016, it was designed by a team at Jetbrains to be used as an alternative to programming Adroid apps in java, just like how switf is used in programming apps on IOS
 
-> - Some interesting features:
+>  ### _Some interesting features:_
 > - Its an easy language to learn
 > - It uses the Java Virtual Machine to compile its code
 > - It has similar syntax to both java and javascript
@@ -43,14 +44,15 @@ fun main(args: Array<String>) {
 
 > _Describe the compiler or interpreter needed_.
 
-### IDE's
+> ### _IDE's_
 > - Jetbrains IDEA offers a good enviroment to write Kotlin code in
 > - Android Studio also offers an enviroment to compile Kotlin code but its only used to develop android applications
 > - Visual Studio also can be used to write Kotlin code
 
-### Compilers
+> ### _Compilers_
+> There is a standalone compiler that can be run
 
-### Build Tools
+> ### _Build Tools_
 
 
 ## About the standard library
