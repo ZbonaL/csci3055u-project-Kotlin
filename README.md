@@ -50,10 +50,13 @@ fun main(args: Array<String>) {
 > - Visual Studio also can be used to write Kotlin code
 
 > ### _Compilers_
-> There is a standalone compiler that can be run
+> There is a standalone compiler that can be used to run indvidual kotlin files using the command line
+> https://kotlinlang.org/docs/tutorials/command-line.html
 
 > ### _Build Tools_
-
+> - Gradle
+> - Maven
+> - Ant
 
 ## About the standard library
 
@@ -62,8 +65,10 @@ fun main(args: Array<String>) {
 
 ## About open source library
 
-> _Describe at least one contribution by the open source
-community written in the language._
+> ### Klaxon JSON Parser
+> - Klaxon is an open source JSON parser for Kotlin
+> - An example of how to use it is in the /real-app folder
+> - Link to the repo for Klaxon: https://github.com/cbeust/klaxon
 
 # Analysis of the language
 
