@@ -1,8 +1,17 @@
+import java.util.Arrays
+
 fun main(args: Array<String>) {
     /*
     * In this section we are going to be looking at arrays and collections
     * */
 
+    // This is how arrays are declared:
+
+    val nums: IntArray = intArrayOf(1,2,3,4,5,6,7,8,9)
+    println("nums: " + Arrays.toString(nums))
+    println("This is the vaule at index 5: " + nums[5])
+
+    println()
 
     // This is a collection
     /*There are two types of collections:
