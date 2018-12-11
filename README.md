@@ -1,4 +1,4 @@
-# _Your project title_
+# _How to Kotlin and stuff_
 
 - Leonard Zbona
 - leonard.zbona@uoit.net
@@ -73,7 +73,9 @@ fun main(args: Array<String>) {
 
 # Analysis of the language
 
-> - 1 The style of programming supported by Kotlin: 
+> 1: The style of programming supported by Kotlin: 
+> Kotlin uses both procedural and functional programming constructs\
 
+> 2: Meta-Programming in Kotlin:
 
 
