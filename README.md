@@ -54,6 +54,7 @@ fun main(args: Array<String>) {
 > https://kotlinlang.org/docs/tutorials/command-line.html
 
 > ### _Build Tools_
+> Below is a list of build tools that are supported by Kotlin:
 > - Gradle
 > - Maven
 > - Ant
@@ -72,7 +73,7 @@ fun main(args: Array<String>) {
 
 # Analysis of the language
 
-> _Organize your report according to the project description
-document_.
+> - 1 The style of programming supported by Kotlin: 
+
 
 
