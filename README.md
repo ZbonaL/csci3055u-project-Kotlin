@@ -73,9 +73,9 @@ fun main(args: Array<String>) {
 
 # Analysis of the language
 
-> 1: The style of programming supported by Kotlin: 
+> 1. The style of programming supported by Kotlin: 
 > Kotlin uses both procedural and functional programming constructs\
 
-> 2: Meta-Programming in Kotlin:
+> 2. Meta-Programming in Kotlin:
 
 
