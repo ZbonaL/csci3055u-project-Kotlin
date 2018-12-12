@@ -100,7 +100,7 @@ fun main(args: Array<String>) {
 ```
 > 4. Scoping in Kotlin:
 > - Scoping in Kotlin is done using Visiblity Modifiers.
-> - the ```Kotlin internal``` modifire allows for code to be accessed by the whole module
+> - the ```internal``` modifire allows for code to be accessed by the whole module
 
 
 > 5. Functional Programming in Kotlin using Kotlin standard library:
