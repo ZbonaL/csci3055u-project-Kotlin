@@ -1,4 +1,4 @@
-# _Your project title_
+# _How to Kotlin and stuff_
 
 - Leonard Zbona
 - leonard.zbona@uoit.net
@@ -50,10 +50,14 @@ fun main(args: Array<String>) {
 > - Visual Studio also can be used to write Kotlin code
 
 > ### _Compilers_
-> There is a standalone compiler that can be run
+> There is a standalone compiler that can be used to run indvidual kotlin files using the command line
+> https://kotlinlang.org/docs/tutorials/command-line.html
 
 > ### _Build Tools_
-
+> Below is a list of build tools that are supported by Kotlin:
+> - Gradle
+> - Maven
+> - Ant
 
 ## About the standard library
 
@@ -62,12 +66,56 @@ fun main(args: Array<String>) {
 
 ## About open source library
 
-> _Describe at least one contribution by the open source
-community written in the language._
+> ### Klaxon JSON Parser
+> - Klaxon is an open source JSON parser for Kotlin
+> - An example of how to use it is in the /real-app folder
+> - Link to the repo for Klaxon: https://github.com/cbeust/klaxon
 
 # Analysis of the language
 
-> _Organize your report according to the project description
-document_.
+> 1. The style of programming supported by Kotlin: 
+> Kotlin uses both procedural and functional programming constructs, allowing for code to be a mix of functional and object-oriented code to be developed
+
+> 2. Meta-Programming in Kotlin:
+> Kotlin doesn't support Meta Programming
+
+> 3.Kotlin's support for closure
+> 
+```kotlin
+// Unit is like a datatype declration for the function
+// Unit is like declaring the function as void 
+fun addition(a: Int, b: Int, action: (Int, Int) -> Unit) {
+   // this is used to store the two inputed variables to be used later
+    action(a, b)
+}
+
+fun main(args: Array<String>) {
+   // this result variable cant be modified inside the addition function
+   // but it can be updated in the main function 
+    var result = 0
+    addition(2, 7) {x, y -> result = x + y}
+    println(result)
+   
+}
+```
+> 4. Scoping in Kotlin:
+> - Scoping in Kotlin is done using Visiblity Modifiers.
+> - the ```internal``` modifire allows for code to be accessed by the whole module
 
 
+> 5. Functional Programming in Kotlin using Kotlin standard library:
+> - Kotlin does support functional programming as a build in feature
+
+> 6. Static Vs Dynamic types in Kotlin:
+> - Kotlin Uses Static types instead if the dynamic types used in clojure
+
+> 7. Strengths vs Weaknesses  
+> - ### Strengths:
+> - Better performance in a smaller runtime
+> - Can compile existing Java code
+> - Easy to maintain
+
+> - ### Weaknesses:
+> - Allows for functions to be called at the top level, but as these functions are altered, then it is hard to understand which function is being called.
+> - Has a small developer community
+> - computation times can fluctate
