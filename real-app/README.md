@@ -1,4 +1,4 @@
-#Simple Real Application:
+# Simple Real Application:
 >_This folder contains the code of a reasonably real application implemented in the language._
 
 ## Inside this project:
@@ -7,4 +7,4 @@
 > - This project also uses one of the build tools that Kotlin supports
 
 ## Build tool:
-> - Gradle is used in this project 
+> - Gradle is used in this project s
