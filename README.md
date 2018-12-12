@@ -99,10 +99,15 @@ fun main(args: Array<String>) {
 }
 ```
 > 4. Scoping in Kotlin:
+> - Scoping in Kotlin is done using Visiblity Modifiers.
+> - the ```Kotlin internal``` modifire allows for code to be accessed by the whole module
+
 
 > 5. Functional Programming in Kotlin using Kotlin standard library:
+> - Kotlin does support functional programming as a build in feature
 
 > 6. Static Vs Dynamic types in Kotlin:
+> - Kotlin Uses Static types instead if the dynamic types used in clojure
 
 > 7. Strengths vs Weaknesses  
 > - ### Strengths:
