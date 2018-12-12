@@ -82,15 +82,35 @@ fun main(args: Array<String>) {
 > 3.Kotlin's support for closure
 > 
 ```kotlin
-fun addTwoNumbers(a: Int, b: Int, action: (Int, Int) -> Unit) {  // High Level Function with Lambda as Parameter
-
+// Unit is like a datatype declration for the function
+// Unit is like declaring the function as void 
+fun addition(a: Int, b: Int, action: (Int, Int) -> Unit) {
+   // this is used to store the two inputed variables to be used later
     action(a, b)
 }
+
 fun main(args: Array<String>) {
+   // this result variable cant be modified inside the addition function
+   // but it can be updated in the main function 
     var result = 0
-    addTwoNumbers(2, 7) {x, y -> result = x + y}
+    addition(2, 7) {x, y -> result = x + y}
     println(result)
+   
 }
 ```
+> 4. Scoping in Kotlin:
 
+> 5. Functional Programming in Kotlin using Kotlin standard library:
 
+> 6. Static Vs Dynamic types in Kotlin:
+
+> 7. Strengths vs Weaknesses  
+> - ### Strengths:
+> - Better performance in a smaller runtime
+> - Can compile existing Java code
+> - Easy to maintain
+
+> - ### Weaknesses:
+> - Allows for functions to be called at the top level, but as these functions are altered, then it is hard to understand which function is being called.
+> - Has a small developer community
+> - computation times can fluctate
