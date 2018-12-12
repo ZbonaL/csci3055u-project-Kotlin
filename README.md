@@ -139,6 +139,7 @@ fun main(args: Array<String>) {
 
 > 5. Functional Programming in Kotlin using Kotlin standard library:
 > - Kotlin does support functional programming as a build in feature
+> - Possible FP constructs: let,run,apply, and anonymous functions 
 
 > 6. Static Vs Dynamic types in Kotlin:
 > - Kotlin Users are encouraged to use static types instead if the dynamic types used in clojure, but it dose support both dynamic and static types
