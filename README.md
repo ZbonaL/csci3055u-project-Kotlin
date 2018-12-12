@@ -64,6 +64,8 @@ fun main(args: Array<String>) {
 > _Give some examples of the functions and data structures
 > offered by the standard library_.
 
+> This link shows examples of the Kotlin standard library https://github.com/ZbonaL/csci3055u-project-Kotlin/tree/master/standard-library/src 
+
 ## About open source library
 
 > ### Klaxon JSON Parser
@@ -132,13 +134,14 @@ fun main(args: Array<String>) {
 > 4. Scoping in Kotlin:
 > - Scoping in Kotlin is done using Visiblity Modifiers.
 > - the ```internal``` modifire allows for code to be accessed by the whole module
+> - Since Kotlin doesn't use dynamic scoping we can say that Kotlin uses to lexical scopeing
 
 
 > 5. Functional Programming in Kotlin using Kotlin standard library:
 > - Kotlin does support functional programming as a build in feature
 
 > 6. Static Vs Dynamic types in Kotlin:
-> - Kotlin Uses Static types instead if the dynamic types used in clojure
+> - Kotlin Users are encouraged to use static types instead if the dynamic types used in clojure, but it dose support both dynamic and static types
 
 > 7. Strengths vs Weaknesses  
 > - ### Strengths:
