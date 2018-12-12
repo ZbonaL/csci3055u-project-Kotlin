@@ -1,3 +1,6 @@
-This folder contains the sample code to illustrate some useful
-functionalities and data structures offered by the standard
-library of the language.
+# Kotlin's Standard Library
+
+## What can be found in this folder:
+> A demonstration of the two features form the library:
+> 1. The first feature is a display of the built in search function
+> 2. The second feature shown is the bulit in sorting functions
