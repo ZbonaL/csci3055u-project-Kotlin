@@ -68,7 +68,38 @@ fun main(args: Array<String>) {
 
 > ### Klaxon JSON Parser
 > - Klaxon is an open source JSON parser for Kotlin
-> - An example of how to use it is in the /real-app folder
+> - Klaxon is a Light-Weight JSON file parser for Kotlin
+> - This is an example where Klaxton uses the streaming API to parse the json object
+   ```kotlin
+   val objectString = """{
+        "name" : "Joe",
+        "age" : 23,
+        "flag" : true,
+        "array" : [1, 3],
+        "obj1" : { "a" : 1, "b" : 2 }
+   }"""
+
+   JsonReader(StringReader(objectString)).use { reader ->
+       reader.beginObject() {
+           var name: String? = null
+           var age: Int? = null
+           var flag: Boolean? = null
+           var array: List<Any> = arrayListOf<Any>()
+           var obj1: JsonObject? = null
+           while (reader.hasNext()) {
+               val readName = reader.nextName()
+               when (readName) {
+                   "name" -> name = reader.nextString()
+                   "age" -> age = reader.nextInt()
+                   "flag" -> flag = reader.nextBoolean()
+                   "array" -> array = reader.nextArray()
+                   "obj1" -> obj1 = reader.nextObject()
+                   else -> Assert.fail("Unexpected name: $readName")
+               }
+           }
+       }
+   }
+```
 > - Link to the repo for Klaxon: https://github.com/cbeust/klaxon
 
 # Analysis of the language
