@@ -11,5 +11,5 @@
 > - Description: Light-Weight JSON parser for kotlin
 > - Link to the Git Repo: https://github.com/cbeust/klaxon
 
-## Build tool:
-> - Gradle is used in this project s
+## Build Tool Used:
+> - Gradle is used in this projects
